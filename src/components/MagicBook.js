@@ -6,13 +6,13 @@ const bookTitleB = ["Natural", "Transmutative", "Quick", "Divining the", "Pure",
 
 const bookTitleC = ["Class IV", "Aetheric", "Elemental", "Phantom", "Alpha", "Amorphous", "Bound", "Components and", "Novel", "Uncategorized", "Iterative", "Familiars and", "Easy", "Astral", "Nonlinear", "Complex", "Ancient", "Nonlocal", "Rope Tricks and", "Underwater", "Data Regarding", "Historical", "Fractal", "Geometric", "Four-Dimensional", "Unseen", "Lesser", "Undefined", "Rituals and", "Magical Components and", "Spell Scrolls and", "Gods and", "Beasts and", "Levitating", "Transformed", "Cursed", "Blessed", "Continental", "Unfortunate", "Artificial"];
 
-const bookTitleD = ["World Systems", "Heavenly Spheres", "Unknowing", "Enchantments", "Force", "Castles", "Knowledge", "Spirits and Souls", "Reality", "Rings", "Lightning", "Crystal Orbs", "Functional Spellcraft", "Golems and Animated Objects", "Dragons and their Eggs", "Ley Lines", "Teleportation", "Unseen Servants", "Magic Missiles", "Empty Places", "the Multiverse", "the Hidden Lands", "Archfey and Lesser Fey", "Divine Boons", "Magical Music", "Devils and Demons", "Tombs", "Temples", "Treasure Hoards", "Minstrels", "Sentient Objects", "Obscurity", "Holy Symbols", "Items of Inheritance", "Creatures and Constructs", "Symbols and Sigils", "Ensorceled Persons", "Old Ways", "Unknowable Monstrosities", "Divination and Oracles"];
+const bookTitleD = ["World Systems", "Heavenly Spheres", "Unknowing", "Enchantments", "Force", "Castles", "Knowledge", "Spirits and Souls", "Reality", "Rings", "Lightning", "Crystal Orbs", "Functional Spellcraft", "Golems and Animated Objects", "Dragons and their Eggs", "Ley Lines", "Teleportation", "Unseen Servants", "Magic Missiles", "Empty Places", "Multiverse", "Hidden Lands", "Archfey and Lesser Fey", "Divine Boons", "Magical Music", "Devils and Demons", "Tombs", "Temples", "Treasure Hoards", "Minstrels", "Sentient Objects", "Obscurity", "Holy Symbols", "Items of Inheritance", "Creatures and Constructs", "Symbols and Sigils", "Ensorceled Persons", "Old Ways", "Unknowable Monstrosities", "Divination and Oracles"];
 
 export const MagicBook = () => {
   let randomTitleA = bookTitleA[Math.floor(Math.random() * bookTitleA.length)];
   let randomTitleB = bookTitleB[Math.floor(Math.random() * bookTitleB.length)];
   let randomTitleC = bookTitleC[Math.floor(Math.random() * bookTitleC.length)];
   let randomTitleD = bookTitleD[Math.floor(Math.random() * bookTitleD.length)];
-  
+
  return (<div>{randomTitleA} {randomTitleB} {randomTitleC} {randomTitleD}</div>)
  }
