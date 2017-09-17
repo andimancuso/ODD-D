@@ -35,6 +35,11 @@ body {
   font-size: 34px;
 }
 
+.book-desc {
+  padding: 0 20% 20px;
+  line-height: 1.5em;
+}
+
 #button {
   color: #000000;
   background: #dfdfdf;

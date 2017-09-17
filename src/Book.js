@@ -1,5 +1,6 @@
 import React from 'react';
 import { GetBook } from './components/GetBook'
+import { BookDesc } from './components/BookDesc'
 
 export class Book extends React.Component {
   constructor(props) {
@@ -22,6 +23,9 @@ export class Book extends React.Component {
             <h2 className="book-title">
               <GetBook />
             </h2>
+            <div className="book-desc">
+              <BookDesc />
+            </div>
             <button id="button" onClick={this.toggleState}>
               That sounds boring. Give me something else!
             </button>
