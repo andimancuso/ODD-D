@@ -1,19 +1,17 @@
 import React from 'react';
-import './App.css';
-import { Header } from './Header';
+import './index.css';
+import { Header } from './components/Header';
 import { Book } from './Book';
 
-class App extends React.Component {
+export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <p className="App-intro">
+          <Header />
+        <div className="App-intro">
           <Book />
-        </p>
+        </div>
       </div>
     );
   }
 }
-
-export default App;

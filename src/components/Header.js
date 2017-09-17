@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './glyph-green.png';
-import './App.css';
+import logo from '../images/glyph-green.png';
+import '../index.css';
 
 export class Header extends React.Component {
   render() {
