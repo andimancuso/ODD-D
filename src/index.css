@@ -35,7 +35,12 @@ body {
   font-size: 34px;
 }
 
-.book-desc {
+.noble-house {
+  font-family: 'Satisfy', cursive;
+  font-size: 26px;
+}
+
+.book-desc, .noble-desc {
   padding: 0 20% 20px;
   line-height: 1.5em;
 }
