@@ -10,7 +10,7 @@ export class HouseAlignment extends React.Component {
     let alignmentStray = strayOptions[Math.floor(Math.random() * strayOptions.length)];
 
     return (
-      <span>{alignment}, {alignmentStray}</span>
+      <span>Overall, the house is {alignment}, {alignmentStray} share that alignment.</span>
     );
   };
 };

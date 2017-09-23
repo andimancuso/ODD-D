@@ -5,9 +5,8 @@ import { GetNobleHouse } from './components/GetNobleHouse';
 export class NobleHouse extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { newHouse: false, name: '' };
+    this.state = { newHouse: false };
     this.toggleState = this.toggleState.bind(this);
-    this.changeName = this.changeName.bind(this);
   };
 
   toggleState() {
@@ -17,22 +16,16 @@ export class NobleHouse extends React.Component {
     })
   };
 
-  changeName(newName) {
-    this.setState({
-      name: newName
-    })
-  };
-
   render() {
     return (
         <div>
           <p>You finally rest your weary feet in the inn of a new town.<br/>
-          You overhear patrons talking about one of the local noble families,</p>
+          You overhear patrons talking about one of the local nobles who belongs to</p>
             <h2 className="noble-house">
-              <NobleHouseName onChange={this.changeName} />
+              <NobleHouseName />
             </h2>
             <div className="noble-desc">
-              <GetNobleHouse name={this.state.name} />
+              <GetNobleHouse />
             </div>
             <button id="button" onClick={this.toggleState}>
               These people are awful. Try again!
