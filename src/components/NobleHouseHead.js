@@ -16,7 +16,7 @@ export class Liege extends React.Component {
   const liegePersonality = liegePersonalityOptions[Math.floor(Math.random() * liegePersonalityOptions.length)];
 
     return (
-      <span>The family is led by {liegeRace} {liegeSex} who is {liegeAge} and {liegePersonality}.</span>
+      <span>The noble family is led by {liegeRace} {liegeSex} who is {liegeAge} and {liegePersonality}.</span>
     );
   };
 };

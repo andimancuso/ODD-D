@@ -22,7 +22,7 @@ export class HouseActivity extends React.Component {
 
     return (
       <span>
-        Most recently, the family {recentActivity}.
+        Recently, the rumors say, the family {recentActivity}.
       </span>
     );
   };

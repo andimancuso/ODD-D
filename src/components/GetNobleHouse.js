@@ -12,10 +12,9 @@ export class GetNobleHouse extends React.Component {
   render() {
     return (
       <div>
-        <div><Liege /> <HouseAlignment /></div>
+        <div>This particular noble that your tavern neighbors are discussing seems to be quite the character. <NobleAmbition /> <NobleSecret /></div>
+        <div><Liege /> <HouseAlignment /> <HouseActivity /></div>
         <div><HouseInfluence /> <HouseHoldings /> <FamilySize /></div>
-        <div><HouseActivity /></div>
-        <div>This particular noble that your fellow inn patrons are discussing seems to be quite the character. <NobleAmbition /> <NobleSecret /></div>
       </div>
     );
   };
