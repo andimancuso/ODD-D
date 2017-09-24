@@ -10,7 +10,6 @@ const liegePersonalityOptions = ['naive', 'bold', 'confident', 'fearful', 'rash'
 
 export class Liege extends React.Component {
   render() {
-    const rand = Math.floor(Math.random() * 2)
   const liegeRace = liegeRaceOptions[Math.floor(Math.random() * liegeRaceOptions.length)];
   const liegeSex = liegeSexOptions[Math.floor(Math.random() * liegeSexOptions.length)];
   const liegeAge = liegeAgeOptions[Math.floor(Math.random() * liegeAgeOptions.length)];

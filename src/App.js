@@ -1,18 +1,15 @@
 import React from 'react';
 import './index.css';
 import { Header } from './components/Header';
-import { Book } from './Book';
-import { NobleHouse } from './NobleHouse';
+import { AppSwitcher } from './AppSwitcher';
 
-export class App extends React.Component {
-  render() {
+export const App = () => {
     return (
       <div className="App">
           <Header />
         <div className="App-intro">
-          <NobleHouse />
+          <AppSwitcher />
         </div>
       </div>
     );
-  }
 }

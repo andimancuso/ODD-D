@@ -2,8 +2,6 @@ import React from 'react';
 
 const sizeOptions = ['relatively small', 'somewhat small', 'medium-sized', 'average in size', 'rather large'];
 
-let familyNumber;
-
 export class FamilySize extends React.Component {
   render() {
     let size = sizeOptions[Math.floor(Math.random() * sizeOptions.length)];
