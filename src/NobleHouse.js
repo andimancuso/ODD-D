@@ -19,8 +19,7 @@ export class NobleHouse extends React.Component {
   render() {
     return (
         <div>
-          <p>You finally rest your weary feet in the inn of a new town.<br/>
-          You overhear patrons talking about one of the local nobles who belongs to</p>
+          <p>Resting your weary feet in the inn of a new town, you overhear patrons talking about someone from</p>
             <h2 className="noble-house">
               <NobleHouseName />
             </h2>
