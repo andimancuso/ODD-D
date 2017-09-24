@@ -8,7 +8,7 @@ export class HouseInfluence extends React.Component {
 
     return (
       <span>
-        The noble house as a whole has {influence} influence on its neighboring nobility and its sovereign, which heavily affects how much or little the house and its members can accomplish politically and socially.
+        The noble house as a whole has {influence} influence on its neighboring nobility and its sovereign.
       </span>
     );
   };

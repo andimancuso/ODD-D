@@ -21,7 +21,7 @@ export class FamilySize extends React.Component {
 
     return (
       <span>
-        The family is {size}, with {familyNumber} individuals claiming noble blood and official affiliation with the house, whether or not all of them live in the estate.
+        The family is {size}, with {familyNumber} individuals claiming a noble title.
       </span>
     );
   };

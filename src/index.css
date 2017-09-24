@@ -45,6 +45,10 @@ body {
   line-height: 1.5em;
 }
 
+.noble-desc div {
+  margin-bottom: 15px;
+}
+
 #button {
   color: #000000;
   background: #dfdfdf;

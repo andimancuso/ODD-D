@@ -21,9 +21,9 @@ export class HouseActivity extends React.Component {
     let recentActivity = recentActivityOptions[Math.floor(Math.random() * recentActivityOptions.length)];
 
     return (
-      <div><br />
+      <span>
         Most recently, the family {recentActivity}.
-      </div>
+      </span>
     );
   };
 };
